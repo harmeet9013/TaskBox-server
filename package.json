@@ -1,0 +1,34 @@
+{
+    "name": "emergentx-assesment-server",
+    "version": "1.0.0",
+    "description": "Serverless Web API hosted on vercel for EmertgentX assement",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/harmeet9013/EmergentX-assesment-server.git"
+    },
+    "author": "Harmeet Singh @harmeet9013",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/harmeet9013/EmergentX-assesment-server/issues"
+    },
+    "homepage": "https://github.com/harmeet9013/EmergentX-assesment-server#readme",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "http-errors": "^2.0.0",
+        "multer": "^1.4.5-lts.1",
+        "uuid": "^9.0.0",
+        "vercel": "^32.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
