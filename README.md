@@ -7,22 +7,22 @@ This server is already hosted on vercel and is available on the internet for any
 The hosted is also hosted on vercel and utlizies the public API for it's working.
 
 ## Local Deploy
-1. Clone the git repository
+1. `Clone` the git repository
 ```
-$ git clone https://github.com/harmeet9013/EmergentX-assesment-server.git test-server
+git clone https://github.com/harmeet9013/EmergentX-assesment-server.git test-server
 ```
-2. Navigate to the folder
+2. `Navigate` to the folder
 ```
-$ cd test-server
+cd test-server
 ```
-3. Install dependencies
+3. `Install` dependencies
 ```
-$ npm install
+npm install
 ```
-4. Run the app
+4. `Run` the app (**Use only one command**)
 ```
-$ npm start
-$ npm run dev // for developer env only
+npm start
+npm run dev // for developer env only
 ```
 
 ## Features
