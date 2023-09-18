@@ -1,29 +1,11 @@
-# EmergentX Assesment Server
-This server was created for the assesment. Built using NodeJS (Runtime Database)
+# TaskBox Server
+This repository contains the backend code for the web application TaskBox. It utilizes the NodeJS wrapped through the ExpressJS library to implement the RESTful APIs.
+The database is runtime and is wiped every 5 minutes due to vercel structure of serverless functions.
 
 ## Vercel Deploy
 This server is already hosted on vercel and is available on the internet for anyone to use.
 
 The hosted is also hosted on vercel and utlizies the public API for it's working.
-
-## Local Deploy
-1. `Clone` the git repository
-```
-git clone https://github.com/harmeet9013/EmergentX-assesment-server.git test-server
-```
-2. `Navigate` to the folder
-```
-cd test-server
-```
-3. `Install` dependencies
-```
-npm install
-```
-4. `Run` the app (**Use only one command**)
-```
-npm start
-npm run dev // for developer env only
-```
 
 ## Features
 * ExpressJS

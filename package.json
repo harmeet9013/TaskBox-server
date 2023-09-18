@@ -1,7 +1,7 @@
 {
-    "name": "emergentx-assesment-server",
+    "name": "taskbox-server",
     "version": "1.0.0",
-    "description": "Serverless Web API hosted on vercel for EmertgentX assement",
+    "description": "Serverless Web API hosted on vercel for taskbox",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/harmeet9013/EmergentX-assesment-server.git"
+        "url": "git+https://github.com/harmeet9013/taskbox-server.git"
     },
     "author": "Harmeet Singh @harmeet9013",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/harmeet9013/EmergentX-assesment-server/issues"
+        "url": "https://github.com/harmeet9013/taskbox-server/issues"
     },
-    "homepage": "https://github.com/harmeet9013/EmergentX-assesment-server#readme",
+    "homepage": "https://github.com/harmeet9013/taskbox-server#readme",
     "dependencies": {
         "body-parser": "^1.20.2",
         "cors": "^2.8.5",
